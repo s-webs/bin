@@ -52,7 +52,8 @@ class StrategyResource extends ModelResource
                 Text::make('Название', 'name'),
                 TinyMce::make('Описание', 'description'),
                 File::make('Видео', 'video')
-                    ->allowedExtensions(['mp4']),
+                    ->allowedExtensions(['mp4'])
+                ->removable(),
                 Slug::make('Slug', 'slug')->from('name')->unique(),
             ])
         ];
