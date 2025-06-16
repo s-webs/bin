@@ -18,7 +18,7 @@
     @vite(['resources/css/app.css'])
     <title>BIN</title>
 </head>
-<body class="bg-main-dark h-screen overflow-hidden">
+<body class="bg-main-dark h-screen overflow-x-hidden">
 <div class="text-main-primary font-bold">
     <a href="##" class="border-b border-b-main-gray flex items-center justify-center">
         <img src="{{ asset('assets/image/binance-logo.png') }}" alt="LOGO BINANCE" class="w-[150px] mr-[10px]">
